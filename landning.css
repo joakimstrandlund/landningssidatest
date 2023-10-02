@@ -1,3 +1,130 @@
 body {
-    background-color: red;
+    background-color: rgb(232, 228, 228);
+    padding: 0px;
+    margin: 0px; 
 }
+
+h1, p {
+    margin: 0px;
+}
+
+.primary-button {
+    font-size: 17pt;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 157, 255);
+    padding: 8px;
+    color: white;
+}
+
+div {
+    outline: 1px solid blue; (gör att alla boxar markeras i koden, blir enklare att se)
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(150, 188, 237);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.76);
+    z-index: 10px;
+    position: relative;
+}
+
+.header .logo {
+    height: 60px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+    font-size: 16pt;
+    align-items: center;
+}
+
+/* .header-cta {
+    font-size: 17pt;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 157, 255);
+    padding: 8px;
+} */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+    background-image: url("https://marketplace.canva.com/EAE-xnqWvJk/1/0/1600w/canva-retro-smoke-and-round-light-desktop-wallpapers-JLofAI27pCg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px #0a0a0a;
+}
+
+/* .button-apply {
+    font-size: 17pt;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 157, 255);
+    padding: 8px;
+} */
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+
+}
+.chas-academy {
+    padding: 60px;
+    display: flex;
+    gap: 60px;
+}
+
+.chas-academy img {
+    width: 100%;
+}
+
+.chas-academy div {
+    width: 50%;
+}
+
+.chas-header {
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px;
+
+}
+
+.chas-subtitle {
+    text-align: center;
+    padding: 0px;
+    font-size: larger;
+
+}
+
+.chas-subtitle1 {
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+    
+
+    
